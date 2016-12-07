@@ -1,6 +1,11 @@
 # coffeebot
 Coffeebot for Yeti's Slack
 
+## Deploy to Heroku
+
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
+
+
 ## Set Up Slack Integrations
 Fully functioning coffeebot relies on both incoming and outgoing webhooks.
 
@@ -23,7 +28,7 @@ Go to https://YOUR-TEAM.slack.com/apps/manage/custom-integrations
 
 
 ## Commands
-'<code>coffeebot hi</code> OR <code>coffeebot hello</code>
+<code>coffeebot hi</code> OR <code>coffeebot hello</code>
 
 greeting
 
