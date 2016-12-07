@@ -1,0 +1,6 @@
+{
+  "name": "Yeti Coffeebot",
+  "description": "A coffeebot for your office",
+  "repository": "https://github.com/yeti/yeti-coffeebot",
+  "keywords": ["coffeebot", "yeti", "django"]
+}
