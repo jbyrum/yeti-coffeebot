@@ -1,6 +1,23 @@
 {
-  "name": "Yeti Coffeebot",
+  "name": "yeti-coffeebot",
   "description": "A coffeebot for your office",
   "repository": "https://github.com/yeti/yeti-coffeebot",
-  "keywords": ["coffeebot", "yeti", "django"]
+  "keywords": ["coffeebot", "yeti", "django"],
+  "env": {
+    "DJANGO_SECRET_KEY": {
+      "description": "django secret key",
+      "generator": "secret"
+    },
+    "WEBHOOK_URL": {
+      "description": "Webhook url from your Slack incoming webhook",
+      "required": "true"
+    },
+    "TIMEZONE": {
+      "description": "your pyz timezone",
+      "required": "true"
+    }
+  },
+  "scripts": {
+    "postdeploy": "sh postdeploy.sh"
+  }
 }
