@@ -19,5 +19,6 @@
   },
   "scripts": {
     "postdeploy": "sh postdeploy.sh"
-  }
+  },
+  "stack": "heroku-16"
 }
